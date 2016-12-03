@@ -1,0 +1,25 @@
+{
+  "name": "wg-thumbs",
+  "version": "2.0.0",
+  "description": "Generation of thumbnail images",
+  "author": "Alexandre Morin <aggmorin@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "debug-mocha": "iron-node node_modules/mocha/bin/_mocha"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mkiki/wg-thumbs.git"
+  },
+  "dependencies": {
+    "extend":           "~3.0.0",
+    "moment":           "~2.10.6",
+    "wg-log": "*",
+    "wg-utils": "*"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4"
+  }
+}
